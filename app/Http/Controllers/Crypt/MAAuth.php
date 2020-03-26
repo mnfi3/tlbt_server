@@ -46,7 +46,7 @@ class MAAuth {
   }
 
   public static function generateTimeToken(){
-    $key = 'd8y5g2l1e9q6g5s2d8y5g2l1e9q6g5s2';
+    $key = 'd88es5dse64s';
     $time = time();
     $plaintext = $time;
     $password = $key;

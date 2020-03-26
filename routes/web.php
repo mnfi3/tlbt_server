@@ -12,7 +12,15 @@
 */
 
 Route::get('/test', function () {
-  return time();
+  $key = 'd88es5dse64s';
+  $plaintext = 'mohsen';
+  $password = $key;
+  $method = 'aes-256-cbc';
+  $key = substr(hash('sha256', $password, true), 0, 32);
+  $iv = chr(0x0) . chr(0x0) . chr(0x0) . chr(0x0) . chr(0x0) . chr(0x0) . chr(0x0) . chr(0x0) . chr(0x0) . chr(0x0) . chr(0x0) . chr(0x0) . chr(0x0) . chr(0x0) . chr(0x0) . chr(0x0);
+  $encrypted = base64_encode(openssl_encrypt($plaintext, $method, $key, OPENSSL_RAW_DATA, $iv));
+  return $encrypted;
+  return openssl_decrypt(base64_decode($encrypted), $method, $key, OPENSSL_RAW_DATA, $iv);
 });
 
 Route::get('/', function () {
