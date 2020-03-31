@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Hash;
 class AuthController extends Controller
 {
   public function __construct() {
-    $this->middleware('member_app_auth', ['only'=>['authCheck']]);
+    $this->middleware('member_app_auth', ['only'=>['authCheck', 'logout']]);
   }
 
 

@@ -11,5 +11,5 @@ class MemberApp extends Model
 
   protected $fillable = ['user_id', 'user_name', 'client_key', 'password', 'token_key', 'app_version', 'auth_at'];
 
-  protected $hidden = ['client_key', 'password', 'token_key'];
+  protected $hidden = ['client_key', 'password', 'token_key', 'auth_at'];
 }

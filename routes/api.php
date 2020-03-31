@@ -20,3 +20,4 @@ use Illuminate\Http\Request;
 
 Route::post('/v1/member-app/login', 'Api\MemberApp\AuthController@login');
 Route::get('/v1/member-app/auth-check', 'Api\MemberApp\AuthController@authCheck');
+Route::get('/v1/member-app/logout', 'Api\MemberApp\AuthController@lougout');

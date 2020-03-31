@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36ff0255-cb81-4bad-9db4-dc856c33f496" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/MemberApp/AuthController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/MemberApp/AuthController.php" />
       <change beforePath="$PROJECT_DIR$/app/MemberApp.php" afterPath="$PROJECT_DIR$/app/MemberApp.php" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" afterPath="$PROJECT_DIR$/routes/api.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,25 +31,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="api.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="api.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/api.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+            <state relative-caret-position="462">
+              <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuthController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AuthController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/MemberApp/AuthController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="42" column="17" lean-forward="false" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="17" />
+            <state relative-caret-position="-15">
+              <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="38" />
               <folding>
-                <element signature="e#292#394#0#PHP" expanded="true" />
-                <element signature="e#1646#1916#0#PHP" expanded="true" />
-                <element signature="e#1922#2189#0#PHP" expanded="true" />
+                <element signature="e#410#1648#0#PHP" expanded="true" />
+                <element signature="e#1656#1926#0#PHP" expanded="true" />
+                <element signature="e#1932#2199#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,8 +58,8 @@
       <file leaf-file-name="MAAuth.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Crypt/MAAuth.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="21" column="94" lean-forward="false" selection-start-line="21" selection-start-column="94" selection-end-line="21" selection-end-column="94" />
+            <state relative-caret-position="315">
+              <caret line="21" column="14" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
               <folding>
                 <element signature="e#688#744#0#PHP" expanded="true" />
                 <element signature="e#816#1023#0#PHP" expanded="true" />
@@ -69,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MemberAppAuthMiddleware.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Middleware/MemberAppAuthMiddleware.php">
+      <file leaf-file-name="MemberApp.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/MemberApp.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="17" />
+            <state relative-caret-position="273">
+              <caret line="13" column="71" lean-forward="false" selection-start-line="13" selection-start-column="71" selection-end-line="13" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -111,14 +111,14 @@
         <option value="$PROJECT_DIR$/database/migrations/2020_03_24_082426_create_member_apps_table.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Crypt/Jwt.php" />
         <option value="$PROJECT_DIR$/database/migrations/2020_03_24_144632_add_app_version_to_member_apps_table.php" />
-        <option value="$PROJECT_DIR$/routes/api.php" />
         <option value="$PROJECT_DIR$/database/migrations/2020_03_24_163706_add_client_key_to_member_apps_table.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/MemberAppAuthMiddleware.php" />
         <option value="$PROJECT_DIR$/codes.txt" />
         <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/app/MemberApp.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Crypt/MAAuth.php" />
         <option value="$PROJECT_DIR$/database/migrations/2020_03_31_110541_add_auth_at_to_memeber_apps_table.php" />
+        <option value="$PROJECT_DIR$/app/MemberApp.php" />
+        <option value="$PROJECT_DIR$/routes/api.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Api/MemberApp/AuthController.php" />
       </list>
     </option>
@@ -296,12 +296,6 @@
             <path>
               <item name="bot_server" type="b2602c69:ProjectViewProjectNode" />
               <item name="bot_server" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="migrations" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="bot_server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bot_server" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="routes" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
@@ -402,12 +396,12 @@
       <workItem from="1585034375203" duration="23956000" />
       <workItem from="1585212298791" duration="3147000" />
       <workItem from="1585223954760" duration="3815000" />
-      <workItem from="1585652292904" duration="2754000" />
+      <workItem from="1585652292904" duration="3639000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38177000" />
+    <option name="totallyTimeSpent" value="39062000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
@@ -468,9 +462,9 @@
         <state relative-caret-position="651">
           <caret line="31" column="37" lean-forward="false" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
           <folding>
-            <element signature="e#292#394#0#PHP" expanded="true" />
-            <element signature="e#1646#1916#0#PHP" expanded="true" />
-            <element signature="e#1922#2189#0#PHP" expanded="true" />
+            <element signature="e#410#1648#0#PHP" expanded="true" />
+            <element signature="e#1656#1926#0#PHP" expanded="true" />
+            <element signature="e#1932#2199#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -508,9 +502,9 @@
         <state relative-caret-position="546">
           <caret line="42" column="36" lean-forward="false" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
           <folding>
-            <element signature="e#292#394#0#PHP" expanded="true" />
-            <element signature="e#1646#1916#0#PHP" expanded="true" />
-            <element signature="e#1922#2189#0#PHP" expanded="true" />
+            <element signature="e#410#1648#0#PHP" expanded="true" />
+            <element signature="e#1656#1926#0#PHP" expanded="true" />
+            <element signature="e#1932#2199#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -559,9 +553,9 @@
         <state relative-caret-position="420">
           <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
           <folding>
-            <element signature="e#292#394#0#PHP" expanded="true" />
-            <element signature="e#1646#1916#0#PHP" expanded="true" />
-            <element signature="e#1922#2189#0#PHP" expanded="true" />
+            <element signature="e#410#1648#0#PHP" expanded="true" />
+            <element signature="e#1656#1926#0#PHP" expanded="true" />
+            <element signature="e#1932#2199#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -710,14 +704,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2020_03_24_163706_add_client_key_to_member_apps_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -738,14 +724,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/MemberApp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="112" lean-forward="false" selection-start-line="11" selection-start-column="112" selection-end-line="11" selection-end-column="112" />
           <folding />
         </state>
       </provider>
@@ -771,18 +749,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/MemberAppAuthMiddleware.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Crypt/MAAuth.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="21" column="94" lean-forward="false" selection-start-line="21" selection-start-column="94" selection-end-line="21" selection-end-column="94" />
+        <state relative-caret-position="315">
+          <caret line="21" column="14" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
           <folding>
             <element signature="e#688#744#0#PHP" expanded="true" />
             <element signature="e#816#1023#0#PHP" expanded="true" />
@@ -791,15 +761,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/MemberAppAuthMiddleware.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/MemberApp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="71" lean-forward="false" selection-start-line="13" selection-start-column="71" selection-end-line="13" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/MemberApp/AuthController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="42" column="17" lean-forward="false" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="17" />
+        <state relative-caret-position="-15">
+          <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="38" />
           <folding>
-            <element signature="e#292#394#0#PHP" expanded="true" />
-            <element signature="e#1646#1916#0#PHP" expanded="true" />
-            <element signature="e#1922#2189#0#PHP" expanded="true" />
+            <element signature="e#410#1648#0#PHP" expanded="true" />
+            <element signature="e#1656#1926#0#PHP" expanded="true" />
+            <element signature="e#1932#2199#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
