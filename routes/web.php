@@ -25,9 +25,11 @@ Route::get('/test', function () {
 
 
 Route::get('/test2', function () {
-  $telegram = new \App\Http\Controllers\TelegramBotEngine\Telegram();
-  $result = $telegram->sendMessage(5, 'hello', null, 'disable', null, 'rep', 'murkup');
-  echo json_encode($result);
+  $obj = ['id'=>'5', 'first_name'=>'mohsen', 'last_name'=>'farjami'];
+//  $obj = json_decode(json_encode($obj));
+//  die($obj->first_name);
+  $user = new \App\Http\Controllers\TelegramBotEngine\types\User($obj);
+//  $user = \App\Http\Controllers\TelegramBotEngine\types\User::create(['id'=>'5', 'first_name'=>'mohsen', 'last_name'=>'farjami']);
 });
 
 
