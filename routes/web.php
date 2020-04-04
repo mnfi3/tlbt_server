@@ -23,6 +23,15 @@ Route::get('/test', function () {
   return openssl_decrypt(base64_decode($encrypted), $method, $key, OPENSSL_RAW_DATA, $iv);
 });
 
+
+Route::get('/test2', function () {
+  $telegram = new \App\Http\Controllers\TelegramBotEngine\Telegram();
+  $result = $telegram->sendMessage(5, 'hello', null, 'disable', null, 'rep', 'murkup');
+  echo json_encode($result);
+});
+
+
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -53,3 +62,7 @@ Route::post('register', 'Auth\RegisterController@register');
 
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+
+Route::post('/telbot/group-bot', 'GroupBotController@index')->name('group-bot-post');
+//Route::get('/telbot/group-bot', 'GroupBotController@index')->name('group-bot-get');
