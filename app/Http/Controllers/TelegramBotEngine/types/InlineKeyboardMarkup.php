@@ -11,7 +11,9 @@ namespace App\Http\Controllers\TelegramBotEngine\types;
 
 class InlineKeyboardMarkup  extends Type {
 
-  protected $sub_entities = [];
+  protected $sub_entities = [
+    'inline_keyboard'=>InlineKeyboardButton::class,
+  ];
 
   public function __construct($object = null) {
     parent::__construct($object);

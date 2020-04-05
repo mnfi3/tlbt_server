@@ -9,9 +9,14 @@
 namespace App\Http\Controllers\TelegramBotEngine\types;
 
 
+use App\Http\Controllers\TelegramBotEngine\types\games\CallbackGame;
+
 class InlineKeyboardButton  extends Type {
 
-  protected $sub_entities = [];
+  protected $sub_entities = [
+    'login_url'=>LoginUrl::class,
+    'callback_game'=>CallbackGame::class,
+  ];
 
   public function __construct($object = null) {
     parent::__construct($object);

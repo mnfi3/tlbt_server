@@ -11,7 +11,10 @@ namespace App\Http\Controllers\TelegramBotEngine\types;
 
 class Sticker extends Type {
 
-  protected $sub_entities = [];
+  protected $sub_entities = [
+    'thumb'=>PhotoSize::class,
+    'mask_position'=>MaskPosition::class,
+  ];
 
   public function __construct($object = null) {
     parent::__construct($object);

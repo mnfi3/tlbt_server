@@ -11,7 +11,9 @@ namespace App\Http\Controllers\TelegramBotEngine\types;
 
 class KeyboardButton extends Type {
 
-  protected $sub_entities = [];
+  protected $sub_entities = [
+    'request_poll'=>KeyboardButtonPollType::class,
+  ];
 
   public function __construct($object = null) {
     parent::__construct($object);

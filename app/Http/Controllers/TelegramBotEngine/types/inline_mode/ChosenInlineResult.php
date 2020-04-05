@@ -9,9 +9,15 @@
 namespace App\Http\Controllers\TelegramBotEngine\types\inline_mode;
 
 
+use App\Http\Controllers\TelegramBotEngine\types\Location;
+use App\Http\Controllers\TelegramBotEngine\types\User;
+
 class ChosenInlineResult extends Type {
 
-  protected $sub_entities = [];
+  protected $sub_entities = [
+    'from'=>User::class,
+    'location'=>Location::class,
+  ];
 
   public function __construct($object = null) {
     parent::__construct($object);

@@ -4,9 +4,44 @@
 namespace App\Http\Controllers\TelegramBotEngine\types;
 
 
+use App\Http\Controllers\TelegramBotEngine\types\games\Game;
+use App\Http\Controllers\TelegramBotEngine\types\passport\PassportData;
+use App\Http\Controllers\TelegramBotEngine\types\payments\Invoice;
+use App\Http\Controllers\TelegramBotEngine\types\payments\SuccessfulPayment;
+
 class Message extends Type {
 
-  protected $sub_entities = [];
+  protected $sub_entities = [
+    'from'=>User::class,
+    'chat'=>Chat::class,
+    'forward_from'=>User::class,
+    'forward_from_chat'=>Chat::class,
+    'reply_to_message'=>Message::class,
+    'entities'=>MessageEntity::class,
+    'caption_entities'=>MessageEntity::class,
+    'audio'=>Audio::class,
+    'document'=>Document::class,
+    'animation'=>Animation::class,
+    'game'=>Game::class,
+    'photo'=>PhotoSize::class,
+    'sticker'=>Sticker::class,
+    'video'=>Video::class,
+    'voice'=>Voice::class,
+    'video_note'=>VideoNote::class,
+    'contact'=>Contact::class,
+    'location'=>Location::class,
+    'venue'=>Venue::class,
+    'poll'=>Poll::class,
+    'dice'=>Dice::class,
+    'new_chat_members'=>User::class,
+    'left_chat_member'=>User::class,
+    'new_chat_photo'=>PhotoSize::class,
+    'pinned_message'=>Message::class,
+    'invoice'=>Invoice::class,
+    'successful_payment'=>SuccessfulPayment::class,
+    'passport_data'=>PassportData::class,
+    'reply_markup'=>InlineKeyboardMarkup::class,
+    ];
 
   public function __construct($object = null) {
     parent::__construct($object);

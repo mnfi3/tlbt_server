@@ -11,7 +11,9 @@ namespace App\Http\Controllers\TelegramBotEngine\types;
 
 class ChatMember  extends Type {
 
-  protected $sub_entities = [];
+  protected $sub_entities = [
+    'user'=>User::class,
+  ];
 
   public function __construct($object = null) {
     parent::__construct($object);

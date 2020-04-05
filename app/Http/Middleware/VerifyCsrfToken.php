@@ -21,5 +21,6 @@ class VerifyCsrfToken extends Middleware
     protected $except = [
         //
       '/telbot/group-bot',
+      '/telbot/public-link-bot',
     ];
 }

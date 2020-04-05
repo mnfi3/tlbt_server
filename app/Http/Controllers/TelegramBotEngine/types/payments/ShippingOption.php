@@ -11,7 +11,9 @@ namespace App\Http\Controllers\TelegramBotEngine\types\payments;
 
 class ShippingOption extends Type {
 
-  protected $sub_entities = [];
+  protected $sub_entities = [
+    'prices'=>LabeledPrice::class,
+  ];
 
   public function __construct($object = null) {
     parent::__construct($object);

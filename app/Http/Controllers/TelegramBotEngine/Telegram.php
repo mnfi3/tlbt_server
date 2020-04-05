@@ -14,7 +14,7 @@ class Telegram {
   private $request;
 
   public function __construct($api_key = null) {
-    $api_key != null ? $this->api_key = $api_key : $this->api_key = Config::TOKEN;
+    $this->api_key = $api_key;
     $this->request = new Request($this->api_key);
   }
 
@@ -304,20 +304,6 @@ class Telegram {
 
   //--------------------------------------stickers------------------------------------
 
-  public function Sticker($file_id, $file_unique_id, $with, $height, $is_animated, $thumb = null, $emoji = null, $set_name = null, $mask_position = null, $file_size = null){
-    $args = get_func_args_array(__METHOD__, func_get_args());
-    return $this->request->get(__FUNCTION__, $args);
-  }
-
-  public function StickerSet($name, $title, $is_animated, $contains_masks, $stickers, $thumb = null){
-    $args = get_func_args_array(__METHOD__, func_get_args());
-    return $this->request->get(__FUNCTION__, $args);
-  }
-
-  public function MaskPosition($point, $x_shift, $y_shift, $scale){
-    $args = get_func_args_array(__METHOD__, func_get_args());
-    return $this->request->get(__FUNCTION__, $args);
-  }
 
   public function sendSticker($chat_id, $sticker, $disable_notification = null, $reply_to_message_id = null, $reply_markup = null){
     $args = get_func_args_array(__METHOD__, func_get_args());
@@ -362,30 +348,11 @@ class Telegram {
 
   //--------------------------------------------------inline mode----------------------------------------------------
 
-  public function InlineQuery($id, $from, $location = null, $query, $offset){
-    $args = get_func_args_array(__METHOD__, func_get_args());
-    return $this->request->get(__FUNCTION__, $args);
-  }
-
   public function answerInlineQuery($inline_query_id, $results, $cache_time = null, $is_personal = null, $next_offset = null, $switch_pm_text = null, $switch_pm_parameter = null){
     $args = get_func_args_array(__METHOD__, func_get_args());
     return $this->request->get(__FUNCTION__, $args);
   }
 
-  public function InlineQueryResultArticle($type, $id, $title, $input_message_content, $reply_markup = null, $url = null, $hide_url = null, $description = null, $thumb_url = null, $thumb_with = null, $thumb_height = null){
-    $args = get_func_args_array(__METHOD__, func_get_args());
-    return $this->request->get(__FUNCTION__, $args);
-  }
-
-  public function InlineQueryResultPhoto($type, $id, $photo_url, $thumb_url, $photo_with = null, $photo_height = null, $title = null, $description = null, $caption = null, $parse_mode = null, $reply_mrkup = null, $input_message_content = null){
-    $args = get_func_args_array(__METHOD__, func_get_args());
-    return $this->request->get(__FUNCTION__, $args);
-  }
-
-  public function InlineQueryResultGif($type, $id, $gif_url, $gif_with = null, $gif_height = null, $gif_duration = null, $thumb_url, $title = null, $caption = null, $parse_mode = null, $reply_mrkup = null, $input_message_content = null){
-    $args = get_func_args_array(__METHOD__, func_get_args());
-    return $this->request->get(__FUNCTION__, $args);
-  }
 
 
 

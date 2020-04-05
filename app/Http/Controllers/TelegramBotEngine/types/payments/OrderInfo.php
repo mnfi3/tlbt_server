@@ -11,7 +11,9 @@ namespace App\Http\Controllers\TelegramBotEngine\types\payments;
 
 class OrderInfo  extends Type {
 
-  protected $sub_entities = [];
+  protected $sub_entities = [
+    'shipping_address'=>ShippingAddress::class,
+  ];
 
   public function __construct($object = null) {
     parent::__construct($object);

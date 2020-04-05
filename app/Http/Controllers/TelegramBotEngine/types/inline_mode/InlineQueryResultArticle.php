@@ -9,9 +9,13 @@
 namespace App\Http\Controllers\TelegramBotEngine\types\inline_mode;
 
 
+use App\Http\Controllers\TelegramBotEngine\types\InlineKeyboardMarkup;
+
 class InlineQueryResultArticle extends Type {
 
-  protected $sub_entities = [];
+  protected $sub_entities = [
+    'reply_markup'=>InlineKeyboardMarkup::class,
+  ];
 
   public function __construct($object = null) {
     parent::__construct($object);

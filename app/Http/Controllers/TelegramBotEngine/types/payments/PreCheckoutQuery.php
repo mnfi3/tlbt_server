@@ -9,9 +9,14 @@
 namespace App\Http\Controllers\TelegramBotEngine\types\payments;
 
 
+use App\Http\Controllers\TelegramBotEngine\types\User;
+
 class PreCheckoutQuery extends Type {
 
-  protected $sub_entities = [];
+  protected $sub_entities = [
+    'from'=>User::class,
+    'order_info'=>OrderInfo::class,
+  ];
 
   public function __construct($object = null) {
     parent::__construct($object);

@@ -6,7 +6,11 @@ namespace App\Http\Controllers\TelegramBotEngine\types;
 
 class Chat extends Type {
 
-  protected $sub_entities = [];
+  protected $sub_entities = [
+    'photo'=>ChatPhoto::class,
+    'pinned_message'=>Message::class,
+    'permissions'=>ChatPermissions::class,
+    ];
 
   public function __construct($object = null) {
     parent::__construct($object);

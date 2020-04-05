@@ -11,6 +11,8 @@
 |
 */
 
+use \App\Http\Controllers\TelegramBotEngine\types\Dice;
+
 Route::get('/test', function () {
   $key = 'd88es5dse64s';
   $plaintext = 'mohsen';
@@ -30,6 +32,15 @@ Route::get('/test2', function () {
 //  die($obj->first_name);
   $user = new \App\Http\Controllers\TelegramBotEngine\types\User($obj);
 //  $user = \App\Http\Controllers\TelegramBotEngine\types\User::create(['id'=>'5', 'first_name'=>'mohsen', 'last_name'=>'farjami']);
+});
+
+
+Route::get('/test3', function () {
+  $main_url =  "https://api.telegram.org/file/bot1282921104:AAFy-1E3dV0rVYJCbRCnHRYwiafl4Rxmig0/documents/file_1.apk";
+//  $main_url = "http://dl.aviny.com/voice/marsieh/moharram/92/shab-02/mirdamad/mirdamad-m92-sh2-01.mp3";
+  $file = basename($main_url);
+  header("Content-disposition:attachment; filename=$file");
+  readfile($main_url);
 });
 
 
@@ -66,5 +77,7 @@ Route::post('register', 'Auth\RegisterController@register');
 Route::get('/home', 'HomeController@index')->name('home');
 
 
-Route::post('/telbot/group-bot', 'GroupBotController@index')->name('group-bot-post');
+Route::post('/telbot/group-bot', 'GroupBotController@index')->name('group-bot');
+Route::post('/telbot/public-link-bot1', 'PublicLinkBot\PublicLinkBotController@index')->name('public-link-bot1');
+Route::post('/telbot/public-link-bot', 'PublicLinkBot\PublicLinkBotController@index')->name('public-link-bot');
 //Route::get('/telbot/group-bot', 'GroupBotController@index')->name('group-bot-get');

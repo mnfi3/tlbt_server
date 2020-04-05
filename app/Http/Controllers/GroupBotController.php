@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Log;
 
 class GroupBotController extends Controller
 {
+  private $api_key = '1282921104:AAFy-1E3dV0rVYJCbRCnHRYwiafl4Rxmig0';
   public function index(Request $request){
 
     $json = file_get_contents('php://input');
@@ -28,7 +29,7 @@ class GroupBotController extends Controller
     $telegram = new Telegram();
     $result = $telegram->getFile($document->file_id);
     $result = json_decode($result)->result;
-    $url = "https://api.telegram.org/file/bot1282921104:AAFy-1E3dV0rVYJCbRCnHRYwiafl4Rxmig0/" . $result->file_path;
+    $url = "https://api.telegram.org/file/bot$this->api_key/" . $result->file_path;
     $telegram->sendMessage($chat->id, $url);
 
 

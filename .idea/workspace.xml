@@ -5,84 +5,79 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36ff0255-cb81-4bad-9db4-dc856c33f496" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/Animation.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/Audio.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/BotCommand.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/CallbackQuery.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/Chat.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/ChatMember.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/ChatPermissions.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/ChatPhoto.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/Contact.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/Dice.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/Document.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/File.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/ForceReply.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/InlineKeyboardButton.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/InlineKeyboardMarkup.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/InputMediaAnimation.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/InputMediaAudio.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/InputMediaDocument.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/InputMediaPhoto.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/InputMediaVideo.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/KeyboardButton.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/KeyboardButtonPollType.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/Location.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/LoginUrl.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/MaskPosition.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/Message.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/MessageEntity.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/PhotoSize.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/Poll.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/PollOption.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/ReplyKeyboardMarkup.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/ReplyKeyboardRemove.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/ResponseParameters.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/Sticker.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/StickerSet.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/Type.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/User.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/UserProfilePhotos.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/Venue.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/Video.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/VideoNote.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/Voice.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/ChosenInlineResult.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQuery.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultArticle.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultAudio.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultCachedAudio.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultCachedDocument.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultCachedGif.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultCachedMpeg4Gif.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultCachedPhoto.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultCachedSticker.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultCachedVideo.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultCachedVoice.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultContact.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultDocument.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultGame.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultGif.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultLocation.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultMpeg4Gif.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultPhoto.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultVenue.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultVideo.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultVoice.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InputContactMessageContent.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InputLocationMessageContent.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InputTextMessageContent.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InputVenueMessageContent.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/payments/Invoice.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/payments/LabeledPrice.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/payments/OrderInfo.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/payments/PreCheckoutQuery.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/payments/ShippingAddress.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/payments/ShippingOption.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/payments/ShippingQuery.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/payments/SuccessfulPayment.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/PollAnswer.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/Update.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/WebhookInfo.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/games/CallbackGame.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/games/Game.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/games/GameHighScore.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InputMessageContent.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/passport/EncryptedCredentials.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/passport/EncryptedPassportElement.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/passport/PassportData.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/passport/PassportElementErrorDataField.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/passport/PassportElementErrorFile.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/passport/PassportElementErrorFiles.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/passport/PassportElementErrorFrontSide.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/passport/PassportElementErrorReverseSide.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/passport/PassportElementErrorSelfie.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/passport/PassportElementErrorTranslationFile.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/passport/PassportElementErrorTranslationFiles.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/passport/PassportElementErrorUnspecified.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/passport/PassportFile.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/GroupBotController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/GroupBotController.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/Config.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/Config.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/Request.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/Request.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/TException.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/Telegram.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/Telegram.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/Animation.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/Animation.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/Audio.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/Audio.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/CallbackQuery.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/CallbackQuery.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/Chat.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/Chat.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/ChatMember.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/ChatMember.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/Document.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/Document.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/InlineKeyboardButton.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/InlineKeyboardButton.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/InlineKeyboardMarkup.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/InlineKeyboardMarkup.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/KeyboardButton.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/KeyboardButton.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/Message.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/Message.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/Poll.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/Poll.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/ReplyKeyboardMarkup.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/ReplyKeyboardMarkup.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/Sticker.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/Sticker.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/StickerSet.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/StickerSet.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/Type.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/Type.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/UserProfilePhotos.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/UserProfilePhotos.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/Venue.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/Venue.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/Video.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/Video.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/VideoNote.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/VideoNote.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/ChosenInlineResult.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/ChosenInlineResult.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQuery.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQuery.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultArticle.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultArticle.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultAudio.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultAudio.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultCachedAudio.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultCachedAudio.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultCachedDocument.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultCachedDocument.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultCachedGif.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultCachedGif.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultCachedMpeg4Gif.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultCachedMpeg4Gif.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultCachedPhoto.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultCachedPhoto.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultCachedSticker.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultCachedSticker.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultCachedVideo.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultCachedVideo.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultCachedVoice.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultCachedVoice.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultContact.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultContact.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultDocument.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultDocument.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultGame.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultGame.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultGif.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultGif.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultLocation.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultLocation.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultMpeg4Gif.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultMpeg4Gif.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultPhoto.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultPhoto.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultVenue.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultVenue.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultVideo.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultVideo.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultVoice.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultVoice.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/payments/OrderInfo.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/payments/OrderInfo.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/payments/PreCheckoutQuery.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/payments/PreCheckoutQuery.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/payments/ShippingOption.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/payments/ShippingOption.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/payments/ShippingQuery.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/payments/ShippingQuery.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/payments/SuccessfulPayment.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/payments/SuccessfulPayment.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -97,67 +92,66 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="ChosenInlineResult.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/ChosenInlineResult.php">
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="17" column="3" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="17" selection-end-column="3" />
+            <state relative-caret-position="717">
+              <caret line="81" column="14" lean-forward="true" selection-start-line="81" selection-start-column="14" selection-end-line="81" selection-end-column="36" />
               <folding>
-                <element signature="e#237#320#0#PHP" expanded="true" />
+                <element signature="e#1441#1795#1#PHP" expanded="true" />
+                <element signature="e#1817#1860#1#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShippingOption.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/payments/ShippingOption.php">
+      <file leaf-file-name="VerifyCsrfToken.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="17" column="3" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="17" selection-end-column="3" />
-              <folding>
-                <element signature="e#230#313#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="483">
+              <caret line="23" column="30" lean-forward="false" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SuccessfulPayment.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/payments/SuccessfulPayment.php">
+      <file leaf-file-name="PublicLinkBotController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PublicLinkBot/PublicLinkBotController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="17" column="3" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="17" selection-end-column="3" />
-              <folding>
-                <element signature="e#233#316#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="672">
+              <caret line="32" column="49" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="32" selection-end-column="49" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShippingQuery.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/payments/ShippingQuery.php">
+      <file leaf-file-name="GroupBotController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/GroupBotController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="17" column="3" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="17" selection-end-column="3" />
-              <folding>
-                <element signature="e#229#312#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="336">
+              <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PreCheckoutQuery.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/payments/PreCheckoutQuery.php">
+      <file leaf-file-name="Telegram.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/Telegram.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-              <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-              <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-              <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-              <caret line="23" column="28" lean-forward="false" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-              <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-              <caret line="25" column="24" lean-forward="false" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+            <state relative-caret-position="309">
+              <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebhookInfo.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/WebhookInfo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
               <folding>
-                <element signature="e#232#315#0#PHP" expanded="true" />
+                <element signature="e#148#1175#1#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -177,26 +171,22 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/LoginUrl.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/Poll.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/UserProfilePhotos.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/ReplyKeyboardMarkup.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/KeyboardButton.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/InlineKeyboardMarkup.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/games/CallbackGame.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/InlineKeyboardButton.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/CallbackQuery.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/ForceReoly.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/ForceReply.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/ChatPhoto.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/ChatMember.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/ChatPermissions.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/BotCommand.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/ResponseParameters.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/InputMediaPhoto.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/InputMediaVideo.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/InputMediaAnimation.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/InputMediaAudio.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/InputMediaDocument.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/Sticker.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/StickerSet.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/MaskPosition.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQuery.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultArticle.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultPhoto.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/Type.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InputMessageContent.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultGif.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultMpeg4Gif.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultVideo.php" />
@@ -212,22 +202,26 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultCachedMpeg4Gif.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultCachedSticker.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultCachedDocument.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultCachedAudio.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultCachedVideo.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultCachedVoice.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultCachedAudio.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InputTextMessageContent.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InputLocationMessageContent.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InputVenueMessageContent.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InputContactMessageContent.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/ChosenInlineResult.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/payments/LabeledPrice.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/payments/Invoice.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/payments/ShippingAddress.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/payments/OrderInfo.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/payments/ShippingOption.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/payments/SuccessfulPayment.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/payments/ShippingQuery.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/payments/PreCheckoutQuery.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/passport/PassportData.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/passport/EncryptedPassportElement.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/games/Game.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/games/GameHighScore.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/GroupBotController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/Telegram.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/Request.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/Config.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/PublicLinkBot/PublicLinkBotController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" />
       </list>
     </option>
   </component>
@@ -354,7 +348,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -386,7 +380,7 @@
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="TelegramBotEngine" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="PublicLinkBot" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="bot_server" type="b2602c69:ProjectViewProjectNode" />
@@ -395,17 +389,6 @@
               <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="TelegramBotEngine" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="types" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="bot_server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bot_server" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="TelegramBotEngine" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="types" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="payments" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="bot_server" type="b2602c69:ProjectViewProjectNode" />
@@ -434,7 +417,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -538,12 +521,14 @@
       <workItem from="1585842862869" duration="3629000" />
       <workItem from="1585899072778" duration="21292000" />
       <workItem from="1585992772345" duration="5378000" />
-      <workItem from="1585999163267" duration="19345000" />
+      <workItem from="1585999163267" duration="19999000" />
+      <workItem from="1586031421357" duration="1065000" />
+      <workItem from="1586082616991" duration="9589000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88827000" />
+    <option name="totallyTimeSpent" value="100135000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -553,11 +538,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29673913" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21589689" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2094522" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21589689" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24865736" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -585,524 +570,433 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/InlineKeyboardButton.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/ReplyKeyboardMarkup.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#227#310#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="294">
+          <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/LoginUrl.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/UserProfilePhotos.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="e#214#297#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="294">
+          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/ForceReply.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/Poll.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#217#300#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="294">
+          <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/ChatMember.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/Video.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#217#300#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/ChatPermissions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#221#304#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/BotCommand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#216#299#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/ResponseParameters.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#224#307#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/ChatPhoto.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#215#298#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/InputMediaPhoto.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#222#305#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/CallbackQuery.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#219#302#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/InputMediaVideo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#221#304#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/InputMediaAnimation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#225#308#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/InputMediaAudio.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#222#305#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/InputMediaDocument.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#226#309#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/Sticker.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#214#297#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="315">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/StickerSet.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="17" selection-end-column="3" />
+        <state relative-caret-position="315">
+          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/Sticker.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="41" lean-forward="false" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/ChatMember.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/CallbackQuery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/Type.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
           <folding>
-            <element signature="e#217#300#0#PHP" expanded="true" />
+            <element signature="e#143#241#0#PHP" expanded="true" />
+            <element signature="e#246#954#0#PHP" expanded="true" />
+            <element signature="e#958#1121#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/MaskPosition.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InputMessageContent.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#219#302#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQuery.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#230#313#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultArticle.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#243#326#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultPhoto.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#241#324#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultGif.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#239#322#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultMpeg4Gif.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#244#327#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultAudio.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#241#324#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultVideo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#241#324#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultVoice.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#242#325#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultDocument.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#244#327#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultLocation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#244#327#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultVenue.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#241#324#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultGame.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="17" selection-end-column="3" />
+        <state relative-caret-position="441">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
             <element signature="e#240#323#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultCachedPhoto.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultArticle.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#247#330#0#PHP" expanded="true" />
-          </folding>
+          <caret line="18" column="0" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="18" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultCachedGif.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultGif.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#161#1088#1#PHP" expanded="true" />
-            <element signature="e#245#328#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="321">
+          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultCachedMpeg4Gif.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#250#333#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultCachedDocument.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultPhoto.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#251#334#0#PHP" expanded="true" />
-          </folding>
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultCachedSticker.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQuery.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#249#332#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="378">
+          <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultCachedVideo.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultMpeg4Gif.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#247#330#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="321">
+          <caret line="16" column="36" lean-forward="false" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultCachedVoice.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultVideo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#247#330#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="294">
+          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultAudio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultVoice.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultDocument.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultLocation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultVenue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultContact.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#243#326#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="336">
+          <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultGame.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultCachedPhoto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultCachedGif.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultCachedMpeg4Gif.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultCachedSticker.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultCachedDocument.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultCachedAudio.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#247#330#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="336">
+          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InputTextMessageContent.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultCachedVideo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#242#325#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="336">
+          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InputLocationMessageContent.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InlineQueryResultCachedVoice.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#247#330#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InputVenueMessageContent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#244#327#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/InputContactMessageContent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#245#328#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="336">
+          <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/inline_mode/ChosenInlineResult.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#237#320#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/payments/Invoice.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-          <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-          <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-          <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-          <folding>
-            <element signature="e#224#307#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/payments/LabeledPrice.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#228#311#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/payments/ShippingAddress.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#232#315#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/payments/OrderInfo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#226#309#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="378">
+          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/payments/ShippingOption.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#230#313#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="294">
+          <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/payments/SuccessfulPayment.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#233#316#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="294">
+          <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/payments/ShippingQuery.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#229#312#0#PHP" expanded="true" />
-          </folding>
+          <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/payments/PreCheckoutQuery.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-          <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-          <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-          <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-          <caret line="23" column="28" lean-forward="false" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-          <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-          <caret line="25" column="24" lean-forward="false" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        <state relative-caret-position="357">
+          <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/passport/PassportData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="39" lean-forward="false" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/payments/OrderInfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="47" lean-forward="false" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/games/GameHighScore.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
-            <element signature="e#232#315#0#PHP" expanded="true" />
+            <element signature="e#128#452#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/games/Game.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/passport/EncryptedPassportElement.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/File.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding>
+            <element signature="e#148#771#1#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="591">
+          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding>
+            <element signature="n#get_func_args_array#0;n#!!top" expanded="true" />
+            <element signature="n#get_func_args_object#0;n#!!top" expanded="true" />
+            <element signature="n#array_to_get_params#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/types/WebhookInfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding>
+            <element signature="e#148#1175#1#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/Request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="861">
+          <caret line="41" column="49" lean-forward="false" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+          <folding>
+            <element signature="e#286#395#0#PHP" expanded="true" />
+            <element signature="e#402#803#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/GroupBotController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TelegramBotEngine/Telegram.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PublicLinkBot/PublicLinkBotController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="32" column="49" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="32" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="717">
+          <caret line="81" column="14" lean-forward="true" selection-start-line="81" selection-start-column="14" selection-end-line="81" selection-end-column="36" />
+          <folding>
+            <element signature="e#1441#1795#1#PHP" expanded="true" />
+            <element signature="e#1817#1860#1#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="30" lean-forward="false" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>

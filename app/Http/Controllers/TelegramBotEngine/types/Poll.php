@@ -11,7 +11,9 @@ namespace App\Http\Controllers\TelegramBotEngine\types;
 
 class Poll extends Type {
 
-  protected $sub_entities = [];
+  protected $sub_entities = [
+    'options'=>PollOption::class,
+  ];
 
   public function __construct($object = null) {
     parent::__construct($object);
