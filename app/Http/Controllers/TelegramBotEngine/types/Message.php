@@ -98,4 +98,32 @@ class Message extends Type {
   public $passport_data	; //PassportData	Optional. Telegram Passport data
   public $reply_markup	; //InlineKeyboardMarkup	Optional. Inline keyboard attached to the message. login_url buttons are represented as ordinary url buttons.
 
+
+
+
+  public function getFileType(){
+    if ($this->photo != null){
+      return 'photo';
+    }
+    if ($this->document != null){
+      return 'document';
+    }
+    if ($this->audio != null){
+      return 'audio';
+    }
+    if ($this->video != null){
+      return 'video';
+    }
+    if ($this->video_note != null){
+      return 'video_note';
+    }
+    if ($this->animation != null){
+      return 'animation';
+    }
+    if ($this->voice != null){
+      return 'voice';
+    }
+    return 'text';
+  }
+
 }

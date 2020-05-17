@@ -25,8 +25,10 @@ class Request {
 
   public function get($action, $params = []){
     $this->url = Config::API_URL . $this->api_key . '/' . $action ;
+//    $result = file_get_contents($this->url . '?' . array_to_get_params($params));
+//    return json_decode($result);
     try {
-      $result = $this->client->get($this->url, ['query' => $params])->getBody();
+      $result = $this->client->get($this->url, ['query' => $params, ['']])->getBody();
       return json_decode($result);
     } catch (RequestException  $e) {
       Log::error('telegram GET request failed.error=' . $e->getMessage(). '\turl=' . $this->url);

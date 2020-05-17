@@ -1,77 +1,51 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Register') }}</div>
 
-                <div class="card-body">
-                    <form method="POST" action="{{ route('register') }}">
-                        @csrf
-
-                        <div class="form-group row">
-                            <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Name') }}</label>
-
-                            <div class="col-md-6">
-                                <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
-
-                                @error('name')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                            </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
-
-                            <div class="col-md-6">
-                                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email">
-
-                                @error('email')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                            </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Password') }}</label>
-
-                            <div class="col-md-6">
-                                <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password">
-
-                                @error('password')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                            </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <label for="password-confirm" class="col-md-4 col-form-label text-md-right">{{ __('Confirm Password') }}</label>
-
-                            <div class="col-md-6">
-                                <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
-                            </div>
-                        </div>
-
-                        <div class="form-group row mb-0">
-                            <div class="col-md-6 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
-                                    {{ __('Register') }}
-                                </button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
+  @include('include.auth_head')
+  <div class="limiter">
+    <div class="container-login100">
+      <div class="wrap-login100 animated fadeInUp faster">
+        <div class="login100-pic js-tilt" data-tilt>
+          <img src="{{asset('images/img-01.png')}}" alt="IMG">
         </div>
+
+        <form class="login100-form validate-form" method="POST" action="{{ route('register') }}">
+          @csrf
+            <input type="hidden" name="mobile_token" value="{{$vc->token}}">
+            <input type="hidden" name="mobile" value="{{$mobile}}">
+          <span class="login100-form-title">
+						ثبت نام
+					</span>
+
+          <div class="wrap-input100 validate-input @if ($errors->has('full_name')) alert-validate @endif " data-validate = "@if ($errors->has('full_name')) {{ $errors->first('phone_number') }} @endif نام و نام خانوادگی خود را وارد کنید.">
+            <input class="input100{{ $errors->has('full_name') ? ' is-invalid' : '' }}" type="text" name="full_name" placeholder="نام و نام خانوادگی ">
+
+            <span class="focus-input100"></span>
+            <span class="symbol-input100">
+							<i class="fa fa-user"  aria-hidden="true"></i>
+						</span>
+          </div>
+
+          <div class="wrap-input100 validate-input @if ($errors->has('password')) alert-validate @endif " data-validate = "@if ($errors->has('password')) {{ $errors->first('password') }} @endif  رمز عبور خود را وارد کنید.">
+            <input class="input100 {{ $errors->has('password') ? ' is-invalid' : '' }}" type="password" name="password" placeholder="رمز عبور">
+            <span class="focus-input100"></span>
+            <span class="symbol-input100">
+							<i class="fa fa-lock" aria-hidden="true"></i>
+						</span>
+          </div>
+
+          <div class="container-login100-form-btn">
+            <button type="submit" class="btn btn-primary btn-outline-dark px-5 py-3">
+              ثبت نام
+            </button>
+          </div>
+
+
+
+        </form>
+      </div>
     </div>
-</div>
+  </div>
+
 @endsection

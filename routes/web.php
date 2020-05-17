@@ -36,18 +36,59 @@ Route::get('/test2', function () {
 
 
 Route::get('/test3', function () {
-  $main_url =  "https://api.telegram.org/file/bot1282921104:AAFy-1E3dV0rVYJCbRCnHRYwiafl4Rxmig0/documents/file_1.apk";
+  $main_url =  "https://api.telegram.org/file/bot963731874:AAGbQWz-V-ke0zH7FI2Z1ghq68xuLFAHzNE/music/file_0.mp3";
 //  $main_url = "http://dl.aviny.com/voice/marsieh/moharram/92/shab-02/mirdamad/mirdamad-m92-sh2-01.mp3";
-  $file = basename($main_url);
+  $file = 'music';
   header("Content-disposition:attachment; filename=$file");
   readfile($main_url);
 });
 
 
 
+Route::post('/telbot/group-bot', 'GroupBotController@index')->name('group-bot');
+Route::post('/telbot/public-link-bot1', 'PublicLinkBot\PublicLinkBotController@index')->name('public-link-bot1');
+Route::post('/telbot/public-link-bot', 'PublicLinkBot\PublicLinkBotController@index')->name('public-link-bot');
+
+
+
+
+
+
+
+
+
+
+
+
 Route::get('/', function () {
-    return view('welcome');
-});
+  return view('main');
+})->name('main');
+
+
+//
+Route::post('/verification/code-request/register', 'Auth\VerificationCodeController@getRegisterCode');
+Route::post('/verification/code-request/reset-password', 'Auth\VerificationCodeController@getResetPasswordCode');
+Route::post('/verification/code-verify-register', 'Auth\VerificationCodeController@verifyCodeRegister');
+Route::post('/verification/code-verify-reset-password', 'Auth\VerificationCodeController@verifyCodeRessetPassword');
+
+
+
+
+Route::get('/send-code', 'Auth\RegisterController@sendCodePage')->name('send-code');
+
+
+Route::get('/new-password', function () {
+  return view('auth.passwords.reset');
+})->name('verify-code');
+
+
+
+
+
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+
 
 //Auth::routes();
 
@@ -58,7 +99,8 @@ Route::post('logout', 'Auth\LoginController@logout')->name('logout');
 //
 //// Registration Routes...
 Route::get('register', 'Auth\RegisterController@showRegistrationForm')->name('register');
-Route::post('register', 'Auth\RegisterController@register');
+//Route::post('register', 'Auth\RegisterController@register');
+Route::post('register', 'Auth\RegisterController@register1');
 //
 //// Password Reset Routes...
 //Route::get('password/reset', 'Auth\ForgotPasswordController@showLinkRequestForm')->name('password.request');
@@ -74,10 +116,6 @@ Route::post('register', 'Auth\RegisterController@register');
 
 
 
+
+
 Route::get('/home', 'HomeController@index')->name('home');
-
-
-Route::post('/telbot/group-bot', 'GroupBotController@index')->name('group-bot');
-Route::post('/telbot/public-link-bot1', 'PublicLinkBot\PublicLinkBotController@index')->name('public-link-bot1');
-Route::post('/telbot/public-link-bot', 'PublicLinkBot\PublicLinkBotController@index')->name('public-link-bot');
-//Route::get('/telbot/group-bot', 'GroupBotController@index')->name('group-bot-get');

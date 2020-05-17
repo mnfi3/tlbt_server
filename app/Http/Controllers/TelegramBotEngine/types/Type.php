@@ -11,12 +11,21 @@ abstract class Type {
   public $object;
 
   public function __construct($object = null) {
+    $class = get_class($this);
+    if($object instanceof $class){
+      $object = json_decode(json_encode($object));
+    }
+
     $this->object = $object;
-    $this->parse();
+    if ($object != null){
+      $this->parse();
+    }
   }
 
 
   protected function parse(){
+    if (key_exists('result', $this->object)) $this->object = $this->object->result;
+
     foreach($this->object as $key=>$value){
 
       if (key_exists($key, $this->sub_entities)){
