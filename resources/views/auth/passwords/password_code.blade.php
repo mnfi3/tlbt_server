@@ -7,44 +7,41 @@
     <div class="container-login100">
       <div class="wrap-login100 animated fadeInUp faster">
         <div class="login100-pic js-tilt" data-tilt>
-          <img src="{{asset('images/img-01.png')}}" alt="IMG">
+          <img src="{{asset('images/send_code2.jpg')}}" alt="IMG">
         </div>
 
-        <form class="login100-form validate-form" method="POST" action="{{ url('verification/code-verify-register') }}">
+        <form class="login100-form validate-form" method="POST" action="{{ url('verification/code-request/reset-password') }}">
           @csrf
-            <input type="hidden" name="mobile" value="{{$mobile}}">
           <span class="login100-form-title">
-						  کد 5 رقمی ارسال شده را وارد کنید
+						  بازیابی رمز با شماره موبایل
 					</span>
 
-          <div class="wrap-input100 validate-input @if ($errors->has('code')) alert-validate @endif " data-validate = "@if ($errors->has('code')) {{ $errors->first('code') }} @endif کد 5 رقمی را وارد کنید">
-            <input class="input100{{ $errors->has('code') ? ' is-invalid' : '' }}" type="number" name="code" placeholder=" کد 5 رقمی ارسال شده">
-
+          <div class="wrap-input100 validate-input @if ($errors->has('mobile')) alert-validate @endif " data-validate = "@if ($errors->has('mobile')) {{ $errors->first('mobile') }} @endif شماره موبایل صحیح وارد کنید.مثال:09101234567">
+            <input class="input100{{ $errors->has('mobile') ? ' is-invalid' : '' }}" type="number" name="mobile" placeholder="شماره موبایل">
 
               @if(!empty($error1))
                   <span class="text-danger">{{$error1}}</span>
               @endif
 
-
             <span class="focus-input100"></span>
             <span class="symbol-input100">
-							<i class="fa fa-check-circle " aria-hidden="true"></i>
+							<i class="fa fa-phone " style="transform: rotateY(180deg)" aria-hidden="true"></i>
 						</span>
           </div>
 
 
           <div class="container-login100-form-btn">
             <button type="submit" class="btn btn-primary btn-outline-dark px-5 py-3">
-               ثبت
+              ارسال کد
             </button>
           </div>
 
           <div class="text-center p-t-12">
             <span class="txt1">
-
+							حساب کاربری دارید!
 						</span>
             <a class="txt2" href="{{ route('login') }}">
-             ارسال دوباره!
+              وارد شوید
             </a>
           </div>
         </form>

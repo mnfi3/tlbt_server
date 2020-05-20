@@ -19,8 +19,8 @@
           <div class="wrap-input100 validate-input @if ($errors->has('mobile')) alert-validate @endif " data-validate = "@if ($errors->has('mobile')) {{ $errors->first('mobile') }} @endif شماره موبایل صحیح وارد کنید.مثال:09101234567">
             <input class="input100{{ $errors->has('mobile') ? ' is-invalid' : '' }}" type="number" name="mobile" placeholder="شماره موبایل">
 
-              @if(\Illuminate\Support\Facades\Session::get('error') != null)
-                  <span class="text-danger">{{\Illuminate\Support\Facades\Session::get('error')}}</span>
+              @if(!empty($error1))
+                  <span class="text-danger">{{$error1}}</span>
               @endif
 
             <span class="focus-input100"></span>

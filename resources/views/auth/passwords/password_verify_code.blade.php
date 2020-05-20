@@ -10,7 +10,7 @@
           <img src="{{asset('images/img-01.png')}}" alt="IMG">
         </div>
 
-        <form class="login100-form validate-form" method="POST" action="{{ url('verification/code-verify-register') }}">
+        <form class="login100-form validate-form" method="POST" action="{{ url('verification/code-verify-reset-password') }}">
           @csrf
             <input type="hidden" name="mobile" value="{{$mobile}}">
           <span class="login100-form-title">

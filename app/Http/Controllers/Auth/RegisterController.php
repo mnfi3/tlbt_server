@@ -97,7 +97,7 @@ class RegisterController extends Controller
       ]);
 
       $vc = VerificationCode::validateToken($request->mobile_token, $request->mobile);
-      if($vc == null) return view('auth.code')->with('error', 'زمان تایید موبایل شما به اتمام رسیده است لطفا دوباره امتحان کنید');
+      if($vc == null) return view('auth.code')->with('error1', 'زمان تایید موبایل شما به اتمام رسیده است لطفا دوباره امتحان کنید');
 
       $vc->expireToken();
       $vc->delete();
@@ -111,9 +111,10 @@ class RegisterController extends Controller
         'password' => Hash::make($request->password),
       ]);
 
-      return redirect('login');
+      return redirect('login')->with('mobile', $request->mobile)->with('password', $request->password);
 
     }
+
 
 
 

@@ -43,6 +43,10 @@ Route::get('/test3', function () {
   readfile($main_url);
 });
 
+Route::get('/test4', function () {
+
+});
+
 
 
 Route::post('/telbot/group-bot', 'GroupBotController@index')->name('group-bot');
@@ -67,14 +71,17 @@ Route::get('/', function () {
 
 //
 Route::post('/verification/code-request/register', 'Auth\VerificationCodeController@getRegisterCode');
-Route::post('/verification/code-request/reset-password', 'Auth\VerificationCodeController@getResetPasswordCode');
 Route::post('/verification/code-verify-register', 'Auth\VerificationCodeController@verifyCodeRegister');
-Route::post('/verification/code-verify-reset-password', 'Auth\VerificationCodeController@verifyCodeRessetPassword');
+
+Route::post('/verification/code-request/reset-password', 'Auth\VerificationCodeController@getResetPasswordCode');
+Route::post('/verification/code-verify-reset-password', 'Auth\VerificationCodeController@verifyCodeResetPassword');
 
 
 
 
 Route::get('/send-code', 'Auth\RegisterController@sendCodePage')->name('send-code');
+Route::get('/send-code-password', 'Auth\ResetPasswordController@sendCodePasswordPage')->name('send-code-password');
+Route::post('/password/reset', 'Auth\ResetPasswordController@passwordReset')->name('password-reset');
 
 
 Route::get('/new-password', function () {

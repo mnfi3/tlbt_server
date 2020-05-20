@@ -9,14 +9,20 @@
           <img class="img-reset-password" src="{{asset('images/reset_password.jpg')}}" alt="IMG">
         </div>
 
-        <form class="login100-form validate-form" method="POST" action="{{ route('register') }}">
+        <form class="login100-form validate-form" method="POST" action="{{ route('password-reset') }}">
           @csrf
+            <input type="hidden" name="mobile_token" value="{{$vc->token}}">
+            <input type="hidden" name="mobile" value="{{$mobile}}">
           <span class="login100-form-title">
 						 رمز عبور جدید!
 					</span>
 
           <div class="wrap-input100 validate-input @if ($errors->has('password')) alert-validate @endif " data-validate = "@if ($errors->has('password')) {{ $errors->first('password') }} @endif ">
-            <input class="input100{{ $errors->has('password') ? ' is-invalid' : '' }}" type="password" name="password" placeholder="رمز عبور جدید">
+            <input class="input100{{ $errors->has('password') ? ' is-invalid' : '' }}" type="password" name="password" placeholder="رمز عبور جدید" required>
+
+              @if(!empty($error1))
+                  <span class="text-danger">{{$error1}}</span>
+              @endif
 
             <span class="focus-input100"></span>
             <span class="symbol-input100">

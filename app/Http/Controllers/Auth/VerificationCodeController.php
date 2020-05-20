@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Util\MCrypt;
+use App\User;
 use App\VerificationCode;
 use DateInterval;
 use DateTime;
@@ -23,7 +24,7 @@ class VerificationCodeController extends Controller
     $mobile = $request->mobile;
     $vc = VerificationCode::generateCode($mobile);
 //      Smsirlaravel::sendVerification($vc->code, $mobile);
-    Smsirlaravel::ultraFastSend(['VerificationCode' => $vc->code], 20565, $mobile);
+    Smsirlaravel::ultraFastSend(['VerificationCode' => $vc->code], 26219, $mobile);
     return view('auth.verify_code', compact('mobile'));
   }
 
@@ -36,7 +37,7 @@ class VerificationCodeController extends Controller
     $vc = VerificationCode::orderBy('id', 'desc')->where('mobile', '=', $mobile)->where('code', '=', $code)->where('is_verified', '=', 0)->where('expired_at', '>', $now)->first();
 
 
-    if ($vc == null) return view('auth.verify_code', compact('mobile'))->with('error', 'کد وارد شده اشتباه می باشد و یا منقضی شده است.');
+    if ($vc == null) return view('auth.verify_code', compact('mobile'))->with('error1', 'کد وارد شده اشتباه می باشد و یا منقضی شده است.');
 
     $dateTime = new DateTime(date('Y-m-d H:i:s'));
     $dateTime->add(new DateInterval('PT' . VerificationCode::TOKEN_EXPIRE_DURATION . 'M'));
@@ -60,17 +61,18 @@ class VerificationCodeController extends Controller
     $validator1 = Validator::make($data, [
       'mobile' => 'required|string|max:11|min:11',
     ]);
-    if($validator1->fails()) return ws::r(0, [], 200, ms::SMS_MOBILE_INVALID);
+    if($validator1->fails()) return view('auth.password.password_code')->with('error1', 'شماره موبایل وارد شده اشتباه است');
 
     $mobile = $request->mobile;
     $user = User::where('mobile', '=', $mobile)->first();
-    if ($user == null) return ws::r(0, [], 200, ms::SMS_MOBILE_INVALID);
-
+    if ($user == null){
+      return view('auth.passwords.password_code')->with('error1', 'شماره موبایل در سیستم وجود ندارد لطفا ثبت نام کنید.');
+    }
 
     $vc = VerificationCode::generateCode($mobile);
 //      Smsirlaravel::sendVerification($vc->code, $mobile);
-    Smsirlaravel::ultraFastSend(['VerificationCode' => $vc->code], 20565, $mobile);
-    return ws::r(1, [], 200, ms::SMS_SENT_SUCCESS);
+    Smsirlaravel::ultraFastSend(['VerificationCode' => $vc->code], 26219, $mobile);
+    return view('auth.passwords.password_verify_code', compact('mobile'));
   }
 
 
@@ -81,13 +83,14 @@ class VerificationCodeController extends Controller
 
 
 
-  public function verifyCodeRessetPassword(Request $request){
+  public function verifyCodeResetPassword(Request $request){
     $code = $request->code;
     $mobile = $request->mobile;
     $now = date('Y-m-d H:i:s');
     $vc = VerificationCode::orderBy('id', 'desc')->where('mobile', '=', $mobile)->where('code', '=', $code)->where('is_verified', '=', 0)->where('expired_at', '>', $now)->first();
 
-    if ($vc == null) return ws::r(0, [], 200, ms::SMS_VERIFICATION_CODE_INVALID);
+
+    if ($vc == null) return view('auth.passwords.password_verify_code', compact('mobile'))->with('error1', 'کد وارد شده اشتباه می باشد و یا منقضی شده است.');
 
     $dateTime = new DateTime(date('Y-m-d H:i:s'));
     $dateTime->add(new DateInterval('PT' . VerificationCode::TOKEN_EXPIRE_DURATION . 'M'));
@@ -98,7 +101,9 @@ class VerificationCodeController extends Controller
     $vc->is_verified = 1;
     $vc->save();
 
-    return ws::r(1, ['verification_code' => $vc], 200, ms::SMS_VERIFICATION_CODE_VALIDATION_SUCCESS);
+
+
+    return view('auth.passwords.reset', compact('vc', 'mobile'));
   }
 
 }

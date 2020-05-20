@@ -16,7 +16,7 @@
 					</span>
 
           <div class="wrap-input100 validate-input @if ($errors->has('mobile')) alert-validate @endif " data-validate = "@if ($errors->has('mobile')) {{ $errors->first('mobile') }} @endif شماره موبایل صحیح وارد کنید.مثال:09141232233">
-            <input class="input100{{ $errors->has('phone_number') ? ' is-invalid' : '' }}" type="number" name="mobile" placeholder="شماره موبایل">
+            <input class="input100{{ $errors->has('phone_number') ? ' is-invalid' : '' }}" type="number" name="mobile" placeholder="شماره موبایل" value="{{\Illuminate\Support\Facades\Session::get('mobile')}}">
 
             <span class="focus-input100"></span>
             <span class="symbol-input100">
@@ -25,7 +25,7 @@
           </div>
 
           <div class="wrap-input100 validate-input @if ($errors->has('password')) alert-validate @endif " data-validate = "@if ($errors->has('password')) {{ $errors->first('password') }} @endif  رمز عبور خود را وارد کنید.">
-            <input class="input100 {{ $errors->has('password') ? ' is-invalid' : '' }}" type="password" name="password" placeholder="رمز عبور" value="">
+            <input class="input100 {{ $errors->has('password') ? ' is-invalid' : '' }}" type="password" name="password" placeholder="رمز عبور" value="{{\Illuminate\Support\Facades\Session::get('password')}}">
             <span class="focus-input100"></span>
             <span class="symbol-input100">
 							<i class="fa fa-lock" aria-hidden="true"></i>
@@ -39,15 +39,15 @@
           </div>
 
           <div class="text-center p-t-12">
-            @if (Route::has('password.request'))
-              <a class="txt2" href="{{ route('password.request') }}">
+            {{--@if (Route::has('password.request'))--}}
+              <a class="txt2" href="{{ route('send-code-password') }}">
                 رمز عبور
               </a>
 
               <span class="txt1">
 							یادت رفته!
 						</span>
-            @endif
+            {{--@endif--}}
           </div>
 
           <div class="text-center p-t-136">
