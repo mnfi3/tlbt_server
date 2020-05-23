@@ -9,7 +9,7 @@ class MemberApp extends Model
 {
   use SoftDeletes;
 
-  protected $fillable = ['user_id', 'user_name', 'client_key', 'password', 'token_key', 'app_version', 'auth_at'];
+  protected $fillable = ['user_id', 'user_name', 'client_key', 'password', 'plain_password', 'token_key', 'app_version', 'auth_at', 'is_trail'];
 
-  protected $hidden = ['client_key', 'password', 'token_key', 'auth_at'];
+  protected $hidden = ['client_key', 'password', 'plain_password', 'token_key', 'auth_at', 'is_trail'];
 }

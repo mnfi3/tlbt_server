@@ -49,6 +49,7 @@ Route::get('/test4', function () {
 
 
 
+
 Route::post('/telbot/group-bot', 'GroupBotController@index')->name('group-bot');
 Route::post('/telbot/public-link-bot1', 'PublicLinkBot\PublicLinkBotController@index')->name('public-link-bot1');
 Route::post('/telbot/public-link-bot', 'PublicLinkBot\PublicLinkBotController@index')->name('public-link-bot');
@@ -69,36 +70,19 @@ Route::get('/', function () {
 })->name('main');
 
 
-//
+
+
+//-----------------------------auth-------------------------------
 Route::post('/verification/code-request/register', 'Auth\VerificationCodeController@getRegisterCode');
 Route::post('/verification/code-verify-register', 'Auth\VerificationCodeController@verifyCodeRegister');
-
 Route::post('/verification/code-request/reset-password', 'Auth\VerificationCodeController@getResetPasswordCode');
 Route::post('/verification/code-verify-reset-password', 'Auth\VerificationCodeController@verifyCodeResetPassword');
-
-
-
 
 Route::get('/send-code', 'Auth\RegisterController@sendCodePage')->name('send-code');
 Route::get('/send-code-password', 'Auth\ResetPasswordController@sendCodePasswordPage')->name('send-code-password');
 Route::post('/password/reset', 'Auth\ResetPasswordController@passwordReset')->name('password-reset');
 
-
-Route::get('/new-password', function () {
-  return view('auth.passwords.reset');
-})->name('verify-code');
-
-
-
-
-
-
-Route::get('/home', 'HomeController@index')->name('home');
-
-
-
 //Auth::routes();
-
 // Authentication Routes For User...
 Route::get('login', 'Auth\LoginController@showLoginForm')->name('login');
 Route::post('login', 'Auth\LoginController@login');
@@ -120,9 +104,34 @@ Route::post('register', 'Auth\RegisterController@register1');
 
 
 
-
-
-
-
+//----------------panel------------------------
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/panel', 'MemberApp\UserPanelController@panel')->name('user-panel');
+Route::post('/panel/change-password', 'MemberApp\UserPanelController@changePassword');
+Route::get('/panel/active-trail', 'MemberApp\UserPanelController@activeTrail');
+Route::post('/panel/validate-discount', 'MemberApp\UserPanelController@validateDiscount');
+
+
+Route::get('/test-ajax', function () {
+  $dummy = [
+    "isUsed"=>"0",
+    "username"=>"test1",
+    "password"=>"123456"
+  ];
+
+  return json_encode($dummy);
+})->name('testAjax');
+
+Route::get('/test-ajax-price', function () {
+  $dummy = [
+    "isValid"=>"1",
+    "price"=>"250000",
+  ];
+
+  return json_encode($dummy);
+})->name('testAjax');
+
+
+
+
