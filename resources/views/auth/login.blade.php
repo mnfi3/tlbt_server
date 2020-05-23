@@ -32,7 +32,12 @@
 						</span>
           </div>
 
-          <div class="container-login100-form-btn">
+            @if(\Illuminate\Support\Facades\Session::get('error1'))
+                <span class="text-danger">{{\Illuminate\Support\Facades\Session::get('error1')}}</span>
+            @endif
+
+
+            <div class="container-login100-form-btn">
             <button type="submit" class="btn btn-primary btn-outline-dark px-5 py-3">
               ورود به حساب
             </button>

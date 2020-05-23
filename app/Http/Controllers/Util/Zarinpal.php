@@ -2,6 +2,8 @@
 
 
 namespace App\Http\Controllers\Util;
+use Zarinpal\Drivers\DriverInterface;
+use Zarinpal\Drivers\RestDriver;
 
 
 class Zarinpal {

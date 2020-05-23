@@ -301,23 +301,27 @@
   $("#generateFreeLicense").click(function(){
     let getUrl = window.location;
     let baseUrl = getUrl.protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
+
     console.log(baseUrl);
-    $.ajax({url: baseUrl+'/test-ajax',
+    $.ajax({url: baseUrl+'/panel/active-trail',
       success: function(result){
         result= JSON.parse(result);
         if(result.isUsed === "0") {
+          alertSuccess('عملیات موفقیت آمیز بود.');
           $('#testUsername').val(result.username);
           $('#testPassword').val(result.password);
           $("#generateFreeLicense").hide();
           $('#serverResponseMessage').addClass('alert-success').toggleClass('d-none').text('اکانت یک روزه شما فعال شد');
 
         } else {
+          alertFail('خطا! عملیات با شکست مواجه شد!');
           $("#generateFreeLicense").hide();
           $('#serverResponseMessage').addClass('alert-danger').toggleClass('d-none').text('خطا! اکانت تست فقط برای یک بار قابل استفاده است.')
         }
 
+
       },
-      fail: function () {
+      fail: function (e) {
         $('#serverResponseMessage').addClass('alert-danger').toggleClass('d-none').text('خطا! اینترنت خود را چک کنید.')
       }
     });
@@ -333,6 +337,9 @@
     });
   $(document).ready(function(){
     $('[data-toggle="tooltip"]').tooltip();
+    setTimeout(function () {
+      $('.alert-panel-main').addClass('slide-out-main-alert');
+    },3000);
   });
   $('#btnDiscount').click(function () {
     if($('#discountCode').val().trim() == ''){
@@ -340,19 +347,50 @@
     }
     let getUrl = window.location;
     let baseUrl = getUrl.protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
-    $.ajax({url: baseUrl+'/test-ajax-price',
+    let code = $('#discountCode').val();
+    console.log(code);
+    $.ajax({url: baseUrl+'/panel/validate-discount?code=' + code ,
       success: function(result){
         result= JSON.parse(result);
-        if(result.isValid === "1"){
-          console.log(result);
-          $('#price').text(result.price);
+        if(result.isValid == 1){
+          alertSuccess(result.message);
+        }else {
+          console.log(result.isValid);
+          alertFail(result.message);
         }
+        $('#price').text(result.price);
 
       },
       fail: function () {
+        alertFail('خطا در ارتباط با سرور');
 
       }
     });
-  })
+  });
+
+
+  /*============ Alerts ============   */
+  var showAlert = function () {
+    let alert = $('#alert');
+    let alertSm = $('#alertSm');
+
+    alert.addClass('show-alert');
+    alertSm.addClass('show-alert-sm');
+    setTimeout(function () {
+      alertSm.removeClass('show-alert-sm');
+      alert.removeClass('show-alert');
+    },3000);
+  };
+  var alertFail = function (message) {
+    $('#alert').removeClass('alert-success').addClass('alert-danger').text(message);
+    $('#alertSm').removeClass('alert-success').addClass('alert-danger').text(message);
+    showAlert();
+  };
+  var alertSuccess = function (message) {
+
+    $('#alert').removeClass('alert-danger').addClass('alert-success').text(message) ;
+    $('#alertSm').removeClass('alert-danger').addClass('alert-success').text(message) ;
+    showAlert();
+  }
 })(jQuery);
 

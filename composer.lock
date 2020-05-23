@@ -4,8 +4,50 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3dd7c56b340b1bb83875cb8cb422d7a6",
+    "content-hash": "a408d71096de54b07aa49349c5d0fa66",
     "packages": [
+        {
+            "name": "atbox/zarinpal",
+            "version": "v1.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Atbox/Composer-Library.git",
+                "reference": "eab5a7e4839262c7b280688ab77d09c252a887ce"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Atbox/Composer-Library/zipball/eab5a7e4839262c7b280688ab77d09c252a887ce",
+                "reference": "eab5a7e4839262c7b280688ab77d09c252a887ce",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^6.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "5.3.*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/Drivers/lib/nusoap.php"
+                ],
+                "psr-4": {
+                    "Zarinpal\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL2"
+            ],
+            "authors": [
+                {
+                    "name": "hooman naghiee",
+                    "email": "hooman@zarinpal.com"
+                }
+            ],
+            "description": "transaction request system for zarinpal",
+            "time": "2016-09-10T10:45:40+00:00"
+        },
         {
             "name": "dnoegel/php-xdg-base-dir",
             "version": "v0.1.1",

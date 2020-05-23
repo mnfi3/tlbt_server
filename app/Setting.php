@@ -16,7 +16,7 @@ class Setting extends Model
   const MEMBER_APP_PRICE = 'member_app_price';
 
   public static function getWithKey($key){
-    $setting = Setting::orederBy('id', 'desc')->where('key', '=', $key)->first();
+    $setting = Setting::orderBy('id', 'desc')->where('key', '=', $key)->first();
     return $setting;
   }
 }

@@ -26,6 +26,7 @@
 {{--<script src="{{asset('js/jquery.timepicker.min.js')}}" defer></script>--}}
 <script src="{{asset('js/particles.min.js')}}" defer></script>
 <script src="{{asset('js/particle.js')}}" defer></script>
+<script src="{{asset('js/particles-panel.js')}}" defer></script>
 <script src="{{asset('js/scrollax.min.js')}}" defer></script>
 {{--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false" defer></script>--}}
 {{--<script src="{{asset('js/google-map.js')}}" defer></script>--}}

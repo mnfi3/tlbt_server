@@ -176,6 +176,10 @@ return [
         App\Providers\RouteServiceProvider::class,
       Ipecompany\Smsirlaravel\SmsirlaravelServiceProvider::class,
 
+
+      //zarinpal
+      Zarinpal\Laravel\ZarinpalServiceProvider::class,
+
     ],
 
     /*

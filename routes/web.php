@@ -103,34 +103,20 @@ Route::post('register', 'Auth\RegisterController@register1');
 
 
 
-
 //----------------panel------------------------
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/panel', 'MemberApp\UserPanelController@panel')->name('user-panel');
 Route::post('/panel/change-password', 'MemberApp\UserPanelController@changePassword');
 Route::get('/panel/active-trail', 'MemberApp\UserPanelController@activeTrail');
-Route::post('/panel/validate-discount', 'MemberApp\UserPanelController@validateDiscount');
+Route::get('/panel/validate-discount', 'MemberApp\UserPanelController@validateDiscount');
+Route::post('/panel/pay-member-app', 'MemberApp\UserPanelController@payMemberApp');
+Route::get('/panel/pay-member-app-callback/{request_id}', 'MemberApp\UserPanelController@payMemberAppCallback');
 
 
-Route::get('/test-ajax', function () {
-  $dummy = [
-    "isUsed"=>"0",
-    "username"=>"test1",
-    "password"=>"123456"
-  ];
 
-  return json_encode($dummy);
-})->name('testAjax');
 
-Route::get('/test-ajax-price', function () {
-  $dummy = [
-    "isValid"=>"1",
-    "price"=>"250000",
-  ];
 
-  return json_encode($dummy);
-})->name('testAjax');
 
 
 

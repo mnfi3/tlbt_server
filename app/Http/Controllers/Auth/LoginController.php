@@ -52,8 +52,7 @@ class LoginController extends Controller
     {
       return redirect()->route('home');
     }else{
-      return redirect()->route('login')
-        ->with('error','شماره تلفن یا رمز عبور وارد شده اشتباه است');
+      return back()->with('error1','شماره تلفن یا رمز عبور وارد شده اشتباه است');
     }
 
   }
