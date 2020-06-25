@@ -188,7 +188,7 @@
 					  {
 					    number: num,
 					    numberStep: comma_separator_number_step
-					  }, 7000
+					  }, 2000
 					);
 				});
 
@@ -336,6 +336,41 @@
       $loading.hide();
     });
   $(document).ready(function(){
+    $('#videoDemoContainer').removeClass('d-none');
+    $('#seeDemo').click(function (e) {
+      e.preventDefault();
+      $('html, body').animate({
+
+        scrollTop: $($.attr(this, 'href')).offset().top -100
+      }, 500);
+
+    });
+
+    $('#faqLink').click(function (e) {
+      e.preventDefault();
+      $('html, body').animate({
+
+        scrollTop: $($.attr(this, 'href')).offset().top
+      }, 500);
+
+    });
+
+    $('#howToUseLink').click(function (e) {
+      e.preventDefault();
+      $('html, body').animate({
+
+        scrollTop: $($.attr(this, 'href')).offset().top
+      }, 500);
+
+    });
+    $('#contactUsLink').click(function (e) {
+      e.preventDefault();
+      $('html, body').animate({
+
+        scrollTop: $($.attr(this, 'href')).offset().top
+      }, 500);
+
+    });
     $('[data-toggle="tooltip"]').tooltip();
     setTimeout(function () {
       $('.alert-panel-main').addClass('slide-out-main-alert');
