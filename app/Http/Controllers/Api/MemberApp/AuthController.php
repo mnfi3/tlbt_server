@@ -71,6 +71,15 @@ class AuthController extends Controller
     $app->save();
     $token = MAAuth::getToken();
     $time_token = MAAuth::generateTimeToken();
+
+
+    if($app->is_trail == 1){
+      if((strtotime($app->created_at) + 86400) <= strtotime(date('Y-m-d H:i:s'))){
+        return ws::r(0, ['app' => null, 'token' => null, 'time_token' => null], 200, "اکانت یک روزه شما منقضی شده.لطفا از پنل کاربری در سایت اقدام به خرید اشتراک دائمی نمایید");
+      }
+    }
+
+
     return ws::r(1, ['app' => $app, 'token' => $token, 'time_token' => $time_token]);
   }
 

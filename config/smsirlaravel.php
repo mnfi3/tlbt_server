@@ -6,7 +6,7 @@ return [
 
   // ======================================================================
   // never remove 'web', just put your middleware like auth or admin (if you have) here. eg: ['web','auth']
-  'middlewares' => ['web', ],
+  'middlewares' => ['web', 'admin'],
   // you can change default route from sms-admin to anything you want
   'route' => 'sms-admin',
   // SMS.ir Web Service URL

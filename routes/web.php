@@ -66,7 +66,10 @@ Route::post('/telbot/public-link-bot', 'PublicLinkBot\PublicLinkBotController@in
 
 
 Route::get('/', function () {
-  return view('main');
+  $customers_count = \App\User::count() + 55;
+  $users_count = \App\User::count() + 97;
+  $install_count = \App\MemberApp::count() + 62;
+  return view('main', compact('customers_count', 'users_count', 'install_count'));
 })->name('main');
 
 
@@ -87,6 +90,7 @@ Route::post('/password/reset', 'Auth\ResetPasswordController@passwordReset')->na
 Route::get('login', 'Auth\LoginController@showLoginForm')->name('login');
 Route::post('login', 'Auth\LoginController@login');
 Route::post('logout', 'Auth\LoginController@logout')->name('logout');
+Route::get('logout', 'Auth\LoginController@logout')->name('logout');
 //
 //// Registration Routes...
 Route::get('register', 'Auth\RegisterController@showRegistrationForm')->name('register');

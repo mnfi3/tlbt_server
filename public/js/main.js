@@ -303,13 +303,13 @@
     let baseUrl = getUrl.protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
 
     console.log(baseUrl);
-    $.ajax({url: baseUrl+'/panel/active-trail',
+    $.ajax({url: baseUrl+'/active-trail',
       success: function(result){
         result= JSON.parse(result);
         if(result.isUsed === "0") {
           alertSuccess('عملیات موفقیت آمیز بود.');
-          $('#testUsername').val(result.username);
-          $('#testPassword').val(result.password);
+          $('#testUsername').val(result.username).toggleClass('d-none');
+          $('#testPassword').val(result.password).toggleClass('d-none');
           $("#generateFreeLicense").hide();
           $('#serverResponseMessage').addClass('alert-success').toggleClass('d-none').text('اکانت یک روزه شما فعال شد');
 
@@ -349,7 +349,7 @@
     let baseUrl = getUrl.protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
     let code = $('#discountCode').val();
     console.log(code);
-    $.ajax({url: baseUrl+'/panel/validate-discount?code=' + code ,
+    $.ajax({url: baseUrl+'/validate-discount?code=' + code ,
       success: function(result){
         result= JSON.parse(result);
         if(result.isValid == 1){
