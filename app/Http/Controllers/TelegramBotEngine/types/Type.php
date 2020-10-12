@@ -13,7 +13,7 @@ abstract class Type {
   public function __construct($object = null) {
     $class = get_class($this);
     if($object instanceof $class){
-      $object = json_decode(json_encode($object));
+      $object = json_decode(json_encode($object, JSON_UNESCAPED_UNICODE));
     }
 
     $this->object = $object;

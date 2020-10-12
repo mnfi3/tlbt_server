@@ -40,7 +40,8 @@
             <h5 class="text-right text-white mb-3">
                 اشتراک های خریداری شده :
             </h5>
-            <table class="table table-bordered bg-white">
+            <div class="table-responsive position-relative">
+                 <table class="table table-bordered bg-white">
                 <thead>
                 <tr>
                     <th scope="col">ردیف</th>
@@ -71,6 +72,9 @@
 
                 </tbody>
             </table>
+            </div>
+               
+            
         </div>
 
 

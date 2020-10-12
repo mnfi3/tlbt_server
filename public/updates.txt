@@ -1,0 +1,15 @@
+;aiu;
+
+[Update]
+Name = AutoMemberBot
+ProductVersion = 3.0.0.0
+URL = https://easy-bots.com/download/AutoMemberBot-v3.exe
+Size = 11147580
+MD5 = 02f8e2336d9c50ed1fa001fb3ef63db7
+ServerFileName = AutoMemberBot-v3.exe
+RegistryKey = HKUD\Software\EasyBots\AutoMemberBot\Version
+Version = 3.0.0.0
+UpdatedApplications = AutoMemberBot[1.0-3.0);AutoMemberBot[2.0-3.0)
+Description = version 3
+Feature = fix some bugs 
+BugFix = fix add users to chat bug

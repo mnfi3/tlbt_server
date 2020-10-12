@@ -1,7 +1,8 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
+<meta name="keywords" content="افزایش اعضای کانال تلگرام، نرم افزار ممبر گیر تلگرام، عضوگیر اتوماتیک تلگرام">
+<meta name="description" content="نرم افزار افزایش اعضای تلگرام به صورت اتوماتیک و با چند کلیک ساده لیستی از هزاران شماره را به گروه یا کانال تلگرام شما اضافه می کند.">
 <!-- CSRF Token -->
 <meta name="csrf-token" content="{{ csrf_token() }}">
 
@@ -31,7 +32,7 @@
 {{--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false" defer></script>--}}
 {{--<script src="{{asset('js/google-map.js')}}" defer></script>--}}
 <script src="{{asset('js/slick.min.js')}}" defer></script>
-<script src="{{asset('js/main.js')}}" defer></script>
+<script src="{{asset('js/main-v1.js')}}" defer></script>
 
 <!-- Fonts -->
 <link rel="dns-prefetch" href="https://fonts.gstatic.com">
@@ -41,13 +42,13 @@
 {{--<link href="{{ asset('css/app.css') }}" rel="stylesheet">--}}
 
 <link rel="stylesheet" href="{{asset('css/open-iconic-bootstrap.min.css')}}">
-<link rel="stylesheet" href="{{asset('css/animate.css')}}">
+<link rel="stylesheet" href="{{asset('css/animate.min.css')}}">
 
 <link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}">
 <link rel="stylesheet" href="{{asset('css/owl.theme.default.min.css')}}">
 <link rel="stylesheet" href="{{asset('css/magnific-popup.css')}}">
 
-<link rel="stylesheet" href="{{asset('css/aos.css')}}">
+<link rel="stylesheet" href="{{asset('css/aos.min.css')}}">
 
 <link rel="stylesheet" href="{{asset('css/ionicons.min.css')}}">
 
@@ -55,8 +56,10 @@
 <link rel="stylesheet" href="{{asset('css/jquery.timepicker.css')}}">
 
 
-<link rel="stylesheet" href="{{asset('css/flaticon.css')}}">
-<link rel="stylesheet" href="{{asset('css/icomoon.css')}}">
+<link rel="stylesheet" href="{{asset('css/flaticon.min.css')}}">
+<link rel="stylesheet" href="{{asset('css/icomoon.min.css')}}">
 <link rel="stylesheet" href="{{asset('css/slick.css')}}">
-<link rel="stylesheet" href="{{asset('css/style.css')}}">
+<link rel="stylesheet" href="{{asset('css/style-v1.min.css')}}">
+
+<link rel="shortcut icon" href="{{ asset('images/favicon.png') }}">
 

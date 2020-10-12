@@ -16,7 +16,7 @@
               @endguest
               @auth
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="portfolio.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">پنل کاربری</a>
+                  <a class="nav-link dropdown-toggle" href="{{url('/panel')}}" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">پنل کاربری</a>
                   <div class="dropdown-menu" aria-labelledby="dropdown04">
                     {{--<a class="dropdown-item" href="portfolio.html">خروج</a>--}}
                       <form action="{{route('logout')}}" method="post">
@@ -26,9 +26,16 @@
                   </div>
                 </li>
               @endauth
-                <li class="nav-item"><a href="services.html" class="nav-link">آموزش استفاده</a></li>
 
-                <li class="nav-item"><a href="contact.html" class="nav-link">تماس با ما</a></li>
+                @php
+                $prefix = '';
+                if (\Illuminate\Support\Facades\Request::url() != url('/')) $prefix = url('/');
+                @endphp
+
+                <li class="nav-item"><a  href="{{$prefix}}#howToUse" class="nav-link">آموزش استفاده</a></li>
+                <li class="nav-item"><a href="{{$prefix}}#faq" class="nav-link">سوالات متداول</a></li>
+                <li class="nav-item"><a href="{{$prefix}}#contactUs" class="nav-link">تماس با ما</a></li>
+                <li class="nav-item"><a href="{{asset('download/AutoMemberBot-v3.exe')}}" download="" class="nav-link">دانلود برنامه</a></li>
 
             </ul>
         </div>
